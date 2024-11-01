@@ -1,6 +1,5 @@
 export const AI_NAME = "Dayta Lab Chat";
-export const AI_DESCRIPTION = "Experience"
-
+export const AI_DESCRIPTION = "Experience secure, private AI solutions designed to transform data into valuable insights for your business. At Dayta Lab, your data privacy is our priority—analyze, generate, and manage insights with confidence on our trusted platform.
 Thank you for choosing Dayta Lab AI. Let’s unlock the full potential of your data together!";
 export const CHAT_DEFAULT_PERSONA = AI_NAME + " default";
 
