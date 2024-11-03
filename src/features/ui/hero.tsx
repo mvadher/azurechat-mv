@@ -11,7 +11,7 @@ export const Hero: FC<HeroProps> = (props) => {
     <div className="border-b w-full py-4">
       <div className="container max-w-4xl h-full flex flex-col gap-4">
         <div className="flex gap-6 flex-col items-start">
-          <h1 className="text-5xl font-bold flex gap-2 items-center">
+          <h1 className="text-4xl font-bold flex gap-2 items-center">
             {props.title}
           </h1>
           <p className="text-muted-foreground max-w-4xl">{props.description}</p>
