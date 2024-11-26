@@ -86,11 +86,13 @@ async function executeFunction(props: {
     const headerItems = await Promise.all(headerPromise);
 
     // we need to add the user id to the headers as this is expected by the function and does not have context of the user
-    headerItems.push({
+   if (!headerItems.some((header) => header.key.toLowerCase() === "authorization")) {
+     headerItems.push({
       id: "authorization",
       key: "authorization",
       value: await userHashedId(),
     });
+   }
     // map the headers to a dictionary
     const headers: { [key: string]: string } = headerItems.reduce(
       (acc: { [key: string]: string }, header) => {
