@@ -1,5 +1,5 @@
 export const AI_NAME = "Cohesive360 AI";
-export const AI_DESCRIPTION = "Experience secure, private AI solutions designed to transform data into valuable insights for your business.";
+export const AI_DESCRIPTION = "Built for Alternaive Investments";
 export const CHAT_DEFAULT_PERSONA = AI_NAME + " default";
 
 export const CHAT_DEFAULT_SYSTEM_PROMPT = `You are an alternative investment industry ${AI_NAME} assistant. You must always return in markdown format.
