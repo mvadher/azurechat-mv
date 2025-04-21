@@ -19,6 +19,10 @@ export async function POST(req: NextRequest) {
         clientSecret: process.env.MS_GRAPH_CLIENT_SECRET!,
       },
     };
+    console.log("📢 ENV CHECK");
+console.log("CLIENT_ID:", process.env.MS_GRAPH_CLIENT_ID);
+console.log("CLIENT_SECRET:", process.env.MS_GRAPH_CLIENT_SECRET);
+console.log("TENANT_ID:", process.env.MS_GRAPH_TENANT_ID);
 
     const cca = new ConfidentialClientApplication(msalConfig);
     const tokenResponse = await cca.acquireTokenByClientCredential({
