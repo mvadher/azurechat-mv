@@ -45,6 +45,10 @@
     "next-auth": "^4.24.5",
     "next-themes": "^0.2.1",
     "openai": "^4.67.1",
+<<<<<<< HEAD
+=======
+    "@azure/openai":"^2.0.0-beta.2",
+>>>>>>> 3b0bec99ceacb967f12a13948b69ef20b5838d3c
     "react": "^18",
     "react-dom": "^18",
     "react-syntax-highlighter": "^15.5.0",
