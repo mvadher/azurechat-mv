@@ -29,7 +29,7 @@ export const LogIn: FC<LoginProps> = (props) => {
           <span className="text-primary">{AI_NAME}</span>
         </CardTitle>
         <CardDescription>
-          Private GPT for Alternative Investments
+          MV Private GPT for Alternative Investments
         </CardDescription>
       </CardHeader>
       <CardContent className="grid gap-4">
